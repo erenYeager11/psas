@@ -6,7 +6,8 @@ import { galleryCategories } from '../data/placeholderData';
 
 // Default placeholder images using gradient placeholders
 const defaultImages = [
-  { id: 'default-1', src: 'https://placehold.co/600x400/1a2744/d4a843?text=School+Campus', alt: 'School Campus', category: 'Campus' },
+  { id: 'default-1', src: 'https://i.pinimg.com/736x/ae/d0/2b/aed02bd9cae83a4127e5e35ad3451360.jpg', alt: 'School Campus', category: 'Campus' },
+  { id: 'default-13', src: 'https://i.pinimg.com/736x/70/ec/88/70ec88a049ed50f82d1e026908793ca4.jpg', alt: 'School Campus', category: 'Campus' },
   { id: 'default-2', src: 'https://placehold.co/600x400/2e4870/ffffff?text=Main+Building', alt: 'Main Building', category: 'Campus' },
   { id: 'default-3', src: 'https://placehold.co/600x400/3a5a8c/ffffff?text=Annual+Day', alt: 'Annual Day Celebration', category: 'Events' },
   { id: 'default-4', src: 'https://placehold.co/600x400/d4a843/1a2744?text=Science+Fair', alt: 'Science Fair', category: 'Events' },
@@ -39,7 +40,7 @@ export default function Gallery() {
         <div className="container-custom">
           <SectionHeading
             title="Photo Gallery"
-            subtitle="Explore our campus, events, and student life"
+            subtitle="Click on an album to explore photos"
           />
           <GalleryGrid images={images} categories={galleryCategories} />
         </div>
