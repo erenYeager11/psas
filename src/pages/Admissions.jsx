@@ -9,6 +9,7 @@ export default function Admissions() {
       <HeroSection
         title="Admissions"
         subtitle="Join the PSAS family — Admissions Open for 2026-27"
+        backgroundImage="https://res.cloudinary.com/dxeqhu87p/image/upload/v1773079189/WhatsApp_Image_2026-03-08_at_5.47.15_PM_duq9za.jpg"
       />
 
       {/* Admission Process */}

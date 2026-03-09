@@ -23,7 +23,8 @@ export default function Events() {
 
   return (
     <div>
-      <HeroSection title="Events & News" subtitle="Stay Updated with What's Happening at PSAS" />
+      <HeroSection title="Events & News" subtitle="Stay Updated with What's Happening at PSAS"
+      backgroundImage="https://res.cloudinary.com/dxeqhu87p/image/upload/v1773079189/WhatsApp_Image_2026-03-08_at_5.47.15_PM_duq9za.jpg" />
 
       {/* Events */}
       <section className="section-padding">

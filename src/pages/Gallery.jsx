@@ -34,7 +34,8 @@ export default function Gallery() {
 
   return (
     <div>
-      <HeroSection title="Gallery" subtitle="Glimpses of Life at PSAS Inter College" />
+      <HeroSection title="Gallery" subtitle="Glimpses of Life at PSAS Inter College" 
+      backgroundImage="https://res.cloudinary.com/dxeqhu87p/image/upload/v1773079189/WhatsApp_Image_2026-03-08_at_5.47.15_PM_duq9za.jpg"/>
 
       <section className="section-padding">
         <div className="container-custom">

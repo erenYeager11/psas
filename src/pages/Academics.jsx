@@ -6,7 +6,8 @@ import { classesOffered, departments, teachingApproach } from '../data/placehold
 export default function Academics() {
   return (
     <div>
-      <HeroSection title="Academics" subtitle="Comprehensive Education from Nursery to Class 12" />
+      <HeroSection title="Academics" subtitle="Comprehensive Education from Nursery to Class 12" 
+      backgroundImage="https://res.cloudinary.com/dxeqhu87p/image/upload/v1773079189/WhatsApp_Image_2026-03-08_at_5.47.15_PM_duq9za.jpg"/>
 
       {/* Classes Offered */}
       <section className="section-padding">

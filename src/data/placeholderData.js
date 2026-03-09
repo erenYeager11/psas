@@ -7,10 +7,10 @@ export const schoolInfo = {
   shortName: "PSAS Inter College",
   tagline: "Nurturing Minds, Shaping Futures",
   established: 1985,
-  address: "123 Vidya Nagar, Civil Lines, Prayagraj, Uttar Pradesh 211001",
+  address: "Makhupur, Khairabad, Sitapur, Uttar Pardesh 261131",
   phone: "+91 532 2460 1234",
   email: "info@psasintercollege.edu.in",
-  website: "www.psasintercollege.edu.in",
+  website: "www.psasintercollege.org.in",
   mapEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4353.467920362624!2d80.75771907610928!3d27.52970473330288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399ed5d86af5d4b9%3A0x83c4b6a441df1ec2!2sPSAS%20INTER%20COLLEGE!5e1!3m2!1sen!2sin!4v1772964257578!5m2!1sen!2sin",
   socialLinks: {
@@ -138,12 +138,12 @@ export const principalMessage = {
 };
 
 export const faculty = [
-  { name: "Dr. Arvind Kumar Sharma", role: "Principal", department: "Administration", experience: "25+ years" },
-  { name: "Mrs. Sunita Verma", role: "Vice Principal", department: "Science", experience: "20+ years" },
-  { name: "Mr. Rajesh Tiwari", role: "Head of Department", department: "Mathematics", experience: "18 years" },
-  { name: "Mrs. Priya Singh", role: "Senior Teacher", department: "English", experience: "15 years" },
-  { name: "Mr. Anil Gupta", role: "Head of Department", department: "Hindi", experience: "16 years" },
-  { name: "Dr. Neha Mishra", role: "Senior Teacher", department: "Science", experience: "12 years" },
+  { name: "Dr. Arvind Kumar Sharma", role: "Principal", department: "Administration", experience: "25+ years", image: "https://randomuser.me/api/portraits/men/32.jpg" },
+  { name: "Mr. Vasu Dev Kumar Agnihotri", role: "Principal of PSAS Girls Inter College", department: "Science", experience: "20+ years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773080584/principal_of_girls_psas_fmhcoo.png" },
+  { name: "Mr. Rajesh Tiwari", role: "Head of Department", department: "Mathematics", experience: "18 years", image: "https://randomuser.me/api/portraits/men/52.jpg" },
+  { name: "Mrs. Priya Singh", role: "Senior Teacher", department: "English", experience: "15 years", image: "https://randomuser.me/api/portraits/women/44.jpg" },
+  { name: "Mr. Anil Gupta", role: "Head of Department", department: "Hindi", experience: "16 years", image: "https://randomuser.me/api/portraits/men/64.jpg" },
+  { name: "Dr. Neha Mishra", role: "Senior Teacher", department: "Science", experience: "12 years", image: "https://randomuser.me/api/portraits/women/68.jpg" },
 ];
 
 // ---- Academics Page ----

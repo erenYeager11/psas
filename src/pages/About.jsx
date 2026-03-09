@@ -11,7 +11,8 @@ import {
 export default function About() {
   return (
     <div>
-      <HeroSection title="About Us" subtitle="A Legacy of Excellence in Education" />
+      <HeroSection title="About Us" subtitle="A Legacy of Excellence in Education" 
+      backgroundImage="https://res.cloudinary.com/dxeqhu87p/image/upload/v1773079189/WhatsApp_Image_2026-03-08_at_5.47.15_PM_duq9za.jpg"/>
 
       {/* History */}
       <section className="section-padding">
@@ -120,9 +121,11 @@ export default function About() {
                 whileHover={{ y: -4 }}
                 className="glass-card p-6 text-center"
               >
-                <div className="w-20 h-20 rounded-full bg-primary-100 mx-auto mb-4 flex items-center justify-center text-3xl">
-                  👨‍🏫
-                </div>
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
+                />
                 <h4 className="font-heading font-semibold text-primary-700">{member.name}</h4>
                 <p className="text-accent-500 text-sm font-medium">{member.role}</p>
                 <p className="text-primary-400 text-sm mt-1">{member.department}</p>
