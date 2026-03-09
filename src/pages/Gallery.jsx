@@ -6,8 +6,9 @@ import { galleryCategories } from '../data/placeholderData';
 
 // Default placeholder images using gradient placeholders
 const defaultImages = [
-  { id: 'default-1', src: 'https://i.pinimg.com/736x/ae/d0/2b/aed02bd9cae83a4127e5e35ad3451360.jpg', alt: 'School Campus', category: 'Campus' },
-  { id: 'default-13', src: 'https://i.pinimg.com/736x/70/ec/88/70ec88a049ed50f82d1e026908793ca4.jpg', alt: 'School Campus', category: 'Campus' },
+  { id: 'default-1', src: 'https://res.cloudinary.com/dxeqhu87p/image/upload/v1773079189/WhatsApp_Image_2026-03-08_at_5.47.15_PM_duq9za.jpg', alt: 'School Campus', category: 'Campus' },
+  { id: 'default-13', src: 'https://res.cloudinary.com/dxeqhu87p/image/upload/v1773079189/WhatsApp_Image_2026-03-08_at_5.47.14_PM_ybbl66.jpg', alt: 'School Campus', category: 'Campus' },
+  { id: 'default-14', src: 'https://res.cloudinary.com/dxeqhu87p/image/upload/v1773079189/WhatsApp_Image_2026-03-08_at_5.47.13_PM_wnjxit.jpg', alt: 'School Campus', category: 'Campus' },
   { id: 'default-2', src: 'https://placehold.co/600x400/2e4870/ffffff?text=Main+Building', alt: 'Main Building', category: 'Campus' },
   { id: 'default-3', src: 'https://placehold.co/600x400/3a5a8c/ffffff?text=Annual+Day', alt: 'Annual Day Celebration', category: 'Events' },
   { id: 'default-4', src: 'https://placehold.co/600x400/d4a843/1a2744?text=Science+Fair', alt: 'Science Fair', category: 'Events' },
@@ -16,7 +17,7 @@ const defaultImages = [
   { id: 'default-7', src: 'https://placehold.co/600x400/2e4870/ffffff?text=Sports+Day', alt: 'Sports Day', category: 'Activities' },
   { id: 'default-8', src: 'https://placehold.co/600x400/c49530/ffffff?text=Art+Exhibition', alt: 'Art Exhibition', category: 'Activities' },
   { id: 'default-9', src: 'https://placehold.co/600x400/3a5a8c/ffffff?text=Computer+Lab', alt: 'Computer Lab', category: 'Campus' },
-  { id: 'default-10', src: 'https://placehold.co/600x400/5573a3/ffffff?text=Morning+Assembly', alt: 'Morning Assembly', category: 'Students' },
+  { id: 'default-10', src: 'https://res.cloudinary.com/dxeqhu87p/image/upload/v1773079191/WhatsApp_Image_2026-03-08_at_5.47.18_PM_2_nxcg9d.jpg', alt: 'Morning Assembly', category: 'Students' },
   { id: 'default-11', src: 'https://placehold.co/600x400/1a2744/d4a843?text=Prize+Distribution', alt: 'Prize Distribution', category: 'Events' },
   { id: 'default-12', src: 'https://placehold.co/600x400/d4a843/1a2744?text=Yoga+Session', alt: 'Yoga Session', category: 'Activities' },
 ];
