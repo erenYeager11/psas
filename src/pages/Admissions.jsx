@@ -99,7 +99,7 @@ export default function Admissions() {
             light
           />
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
-            <motion.a
+            {/* <motion.a
               href="#"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -110,14 +110,14 @@ export default function Admissions() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
               Download Admission Form
-            </motion.a>
+            </motion.a> */}
             <motion.a
               href={`tel:${schoolInfo.phone}`}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="btn-outline border-white text-white hover:bg-white hover:text-primary-700 inline-flex items-center gap-2"
+              className="btn-primary border-white text-white hover:bg-white hover:text-primary-700 inline-flex items-center gap-2"
             >
               📞 Call Admissions Office
             </motion.a>

@@ -25,14 +25,14 @@ export default function Home() {
         subtitle={schoolInfo.tagline}
         backgroundImage="https://res.cloudinary.com/dxeqhu87p/image/upload/v1773079189/WhatsApp_Image_2026-03-08_at_5.47.15_PM_duq9za.jpg"
       >
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link to="/admissions" className="btn-primary">
             Apply Now →
           </Link>
           <Link to="/about" className="btn-outline border-white text-white hover:bg-white hover:text-primary-700">
             Learn More
           </Link>
-        </div>
+        </div> */}
       </HeroSection>
 
       {/* Welcome Section */}

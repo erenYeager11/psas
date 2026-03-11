@@ -85,7 +85,11 @@ export default function About() {
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="flex-shrink-0">
                 <div className="w-32 h-32 rounded-full bg-primary-200 flex items-center justify-center text-5xl">
-                  👤
+                    <img
+                      src="https://res.cloudinary.com/dxeqhu87p/image/upload/v1773224660/Gemini_Generated_Image_5c07m65c07m65c07_mbpjye.png"
+                      alt={principalMessage.name}
+                      className="w-32 h-32 rounded-full object-cover"
+                    />
                 </div>
               </div>
               <div>

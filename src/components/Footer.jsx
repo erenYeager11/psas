@@ -30,7 +30,9 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-full bg-accent-400 flex items-center justify-center text-white font-heading font-bold text-lg">
-                P
+                <img src='https://res.cloudinary.com/dxeqhu87p/image/upload/v1773226697/Gemini_Generated_Image_otougwotougwotou_mygqd2.png' alt="" 
+              className="w-10 h-10 rounded-full bg-accent-400 flex items-center justify-center text-white font-heading font-bold text-lg group-hover:scale-110 transition-transform duration-200"
+              />
               </div>
               <div>
                 <h3 className="text-white font-heading font-semibold">{schoolInfo.shortName}</h3>

@@ -36,8 +36,11 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 px-4 lg:px-8">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-full bg-accent-400 flex items-center justify-center text-white font-heading font-bold text-lg group-hover:scale-110 transition-transform duration-200">
-              P
+            <div  >
+              <img src='https://res.cloudinary.com/dxeqhu87p/image/upload/v1773226697/Gemini_Generated_Image_otougwotougwotou_mygqd2.png' alt="" 
+              className="w-10 h-10 rounded-full bg-accent-400 flex items-center justify-center text-white font-heading font-bold text-lg group-hover:scale-110 transition-transform duration-200"
+              />
+             
             </div>
             <div className="hidden sm:block">
               <div className="text-white font-heading font-semibold text-sm leading-tight">

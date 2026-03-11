@@ -6,11 +6,12 @@ export const schoolInfo = {
   name: "Pandit Suryadutt Anandi Saigal Inter College",
   shortName: "PSAS Inter College",
   tagline: "Nurturing Minds, Shaping Futures",
-  established: 1985,
+  established: 1995,
   address: "Makhupur, Khairabad, Sitapur, Uttar Pardesh 261131",
-  phone: "+91 532 2460 1234",
-  email: "info@psasintercollege.edu.in",
+  phone: "+91 9450379054, +91 6394616216",
+  email: "psasic15@gmail.com, psasgic@gmail.com",
   website: "www.psasintercollege.org.in",
+  logo: 'https://res.cloudinary.com/dxeqhu87p/image/upload/v1773226697/Gemini_Generated_Image_otougwotougwotou_mygqd2.png',
   mapEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4353.467920362624!2d80.75771907610928!3d27.52970473330288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399ed5d86af5d4b9%3A0x83c4b6a441df1ec2!2sPSAS%20INTER%20COLLEGE!5e1!3m2!1sen!2sin!4v1772964257578!5m2!1sen!2sin",
   socialLinks: {
@@ -127,24 +128,25 @@ export const missionVision = {
   mission:
     "To provide an inclusive and stimulating educational environment that empowers every student to achieve their full potential through academic rigor, character development, and community engagement.",
   vision:
-    "To be a nationally recognized institution that produces responsible, innovative, and compassionate leaders who contribute positively to society.",
+    "To be a state recognized institution that produces responsible, innovative, and compassionate leaders who contribute positively to society.",
 };
 
 export const principalMessage = {
-  name: "Dr. Arvind Kumar Sharma",
+  name: "Mr. Vijay Kumar Awasthi",
   title: "Principal",
   message:
     "Education is not merely about acquiring knowledge — it is about developing the ability to think critically, act ethically, and lead compassionately. At PSAS Inter College, we strive to create an environment where every child feels valued, supported, and inspired. I invite parents and students to join us in this journey of discovery and growth.",
 };
 
 export const faculty = [
-  { name: "Dr. Arvind Kumar Sharma", role: "Principal", department: "Administration", experience: "25+ years", image: "https://randomuser.me/api/portraits/men/32.jpg" },
+  { name: "Mr. Vijay Kumar Awasthi", role: "Principal", department: "Administration", experience: "25+ years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773224660/Gemini_Generated_Image_5c07m65c07m65c07_mbpjye.png" },
   { name: "Mr. Vasu Dev Kumar Agnihotri", role: "Principal of PSAS Girls Inter College", department: "Science", experience: "20+ years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773080584/principal_of_girls_psas_fmhcoo.png" },
-  { name: "Mr. Rajesh Tiwari", role: "Head of Department", department: "Mathematics", experience: "18 years", image: "https://randomuser.me/api/portraits/men/52.jpg" },
-  { name: "Mrs. Priya Singh", role: "Senior Teacher", department: "English", experience: "15 years", image: "https://randomuser.me/api/portraits/women/44.jpg" },
-  { name: "Mr. Anil Gupta", role: "Head of Department", department: "Hindi", experience: "16 years", image: "https://randomuser.me/api/portraits/men/64.jpg" },
-  { name: "Dr. Neha Mishra", role: "Senior Teacher", department: "Science", experience: "12 years", image: "https://randomuser.me/api/portraits/women/68.jpg" },
+  { name: "Mr. Mayank Bajpai", role: "Lecturer", department: "Physics M. Sc. B.ed", experience: "18 years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773224326/Gemini_Generated_Image_qv5sjoqv5sjoqv5s_ruoqxb.png" },
+  { name: "Mr. Vivek Kuma", role: "Assistant Teacher", department: "BSC, B.ed", experience: "15 years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773224322/Gemini_Generated_Image_nb7gt4nb7gt4nb7g_dxndrq.png" },
+  // { name: "Mr. Anil Gupta", role: "Head of Department", department: "Hindi", experience: "16 years", image: "https://randomuser.me/api/portraits/men/64.jpg" },
+  // { name: "Dr. Neha Mishra", role: "Senior Teacher", department: "Science", experience: "12 years", image: "https://randomuser.me/api/portraits/women/68.jpg" },
 ];
+
 
 // ---- Academics Page ----
 
@@ -153,25 +155,19 @@ export const classesOffered = [
   { level: "Primary", classes: ["Class 1", "Class 2", "Class 3", "Class 4", "Class 5"] },
   { level: "Middle School", classes: ["Class 6", "Class 7", "Class 8"] },
   { level: "Secondary", classes: ["Class 9", "Class 10"] },
-  { level: "Senior Secondary", classes: ["Class 11 (Science)", "Class 11 (Commerce)", "Class 11 (Arts)", "Class 12 (Science)", "Class 12 (Commerce)", "Class 12 (Arts)"] },
+  { level: "Senior Secondary", classes: ["Class 11 (Science)", "Class 11 (Arts)", "Class 12 (Science)", "Class 12 (Arts)"] },
 ];
 
 export const departments = [
   { name: "Science", subjects: ["Physics", "Chemistry", "Biology", "Mathematics"], icon: "🔬" },
-  { name: "Commerce", subjects: ["Accountancy", "Business Studies", "Economics", "Mathematics"], icon: "📊" },
   { name: "Arts / Humanities", subjects: ["History", "Geography", "Political Science", "Sociology"], icon: "📚" },
   { name: "Languages", subjects: ["English", "Hindi", "Sanskrit"], icon: "🗣️" },
-  { name: "Computer Science", subjects: ["Programming", "Web Development", "Digital Literacy"], icon: "💻" },
 ];
 
 export const teachingApproach = [
   {
     title: "Student-Centered Learning",
     description: "We prioritize active learning, encouraging students to explore, question, and discover knowledge through hands-on activities and collaborative projects.",
-  },
-  {
-    title: "Technology-Integrated Education",
-    description: "Smart classrooms and digital tools are seamlessly woven into our curriculum to enhance understanding and engagement across all subjects.",
   },
   {
     title: "Continuous Assessment",
@@ -182,7 +178,7 @@ export const teachingApproach = [
 // ---- Admissions Page ----
 
 export const admissionProcess = [
-  { step: 1, title: "Online / Offline Registration", description: "Fill out the admission form available online or at the school office." },
+  { step: 1, title: "Offline Registration", description: "Fill out the admission form available at the school office." },
   { step: 2, title: "Document Submission", description: "Submit required documents including birth certificate, previous report cards, and photographs." },
   { step: 3, title: "Entrance Assessment", description: "Appear for an age-appropriate entrance assessment (for Class 3 and above)." },
   { step: 4, title: "Interview", description: "A brief interaction with the student and parents with the admission committee." },
@@ -214,34 +210,6 @@ export const events = [
     title: "Republic Day Celebrations",
     description: "Flag hoisting ceremony, patriotic performances, and NCC march-past to commemorate Republic Day.",
     category: "National",
-  },
-  {
-    id: 3,
-    date: "2026-04-10",
-    title: "Inter-School Sports Meet",
-    description: "Students compete in athletics, cricket, volleyball, and badminton at the district level.",
-    category: "Sports",
-  },
-  {
-    id: 4,
-    date: "2026-01-20",
-    title: "Science Exhibition",
-    description: "Students present innovative science projects and working models to a panel of judges.",
-    category: "Academic",
-  },
-  {
-    id: 5,
-    date: "2026-05-01",
-    title: "Summer Camp Registration Open",
-    description: "Register for the annual summer camp featuring art, robotics, swimming, and personality development workshops.",
-    category: "Activities",
-  },
-  {
-    id: 6,
-    date: "2026-03-08",
-    title: "International Women's Day",
-    description: "Special assembly and panel discussion celebrating the achievements of women in education and society.",
-    category: "Cultural",
   },
 ];
 

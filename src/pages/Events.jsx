@@ -79,7 +79,7 @@ export default function Events() {
       </section>
 
       {/* News */}
-      <section className="section-padding bg-white">
+      {/* <section className="section-padding bg-white">
         <div className="container-custom">
           <SectionHeading
             title="Latest News"
@@ -113,7 +113,7 @@ export default function Events() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
