@@ -37,7 +37,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <div  >
-              <img src='https://res.cloudinary.com/dxeqhu87p/image/upload/v1773226697/Gemini_Generated_Image_otougwotougwotou_mygqd2.png' alt="" 
+              <img src='https://res.cloudinary.com/dxeqhu87p/image/upload/v1773246044/logo111111_ttcepu.png' alt="" 
               className="w-10 h-10 rounded-full bg-accent-400 flex items-center justify-center text-white font-heading font-bold text-lg group-hover:scale-110 transition-transform duration-200"
               />
              

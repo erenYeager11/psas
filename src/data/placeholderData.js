@@ -43,13 +43,6 @@ export const highlights = [
       "State-of-the-art laboratories, library, sports grounds, and smart classrooms.",
   },
   {
-    id: 3,
-    icon: "🏆",
-    title: "Achievements",
-    description:
-      "National and state-level winners in academics, sports, and cultural events.",
-  },
-  {
     id: 4,
     icon: "👨‍🏫",
     title: "Expert Faculty",
@@ -62,13 +55,6 @@ export const highlights = [
     title: "Holistic Growth",
     description:
       "Emphasis on extracurricular activities, life skills, and value-based education.",
-  },
-  {
-    id: 6,
-    icon: "🤝",
-    title: "Community Bond",
-    description:
-      "Strong alumni network and active parent-teacher partnerships.",
   },
 ];
 
@@ -142,9 +128,18 @@ export const faculty = [
   { name: "Mr. Vijay Kumar Awasthi", role: "Principal", department: "Administration", experience: "25+ years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773224660/Gemini_Generated_Image_5c07m65c07m65c07_mbpjye.png" },
   { name: "Mr. Vasu Dev Kumar Agnihotri", role: "Principal of PSAS Girls Inter College", department: "Science", experience: "20+ years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773080584/principal_of_girls_psas_fmhcoo.png" },
   { name: "Mr. Mayank Bajpai", role: "Lecturer", department: "Physics M. Sc. B.ed", experience: "18 years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773224326/Gemini_Generated_Image_qv5sjoqv5sjoqv5s_ruoqxb.png" },
-  { name: "Mr. Vivek Kuma", role: "Assistant Teacher", department: "BSC, B.ed", experience: "15 years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773224322/Gemini_Generated_Image_nb7gt4nb7gt4nb7g_dxndrq.png" },
-  // { name: "Mr. Anil Gupta", role: "Head of Department", department: "Hindi", experience: "16 years", image: "https://randomuser.me/api/portraits/men/64.jpg" },
-  // { name: "Dr. Neha Mishra", role: "Senior Teacher", department: "Science", experience: "12 years", image: "https://randomuser.me/api/portraits/women/68.jpg" },
+  { name: "Mr. Vivek Kumar", role: "Assistant Teacher", department: "BSC, B.ed", experience: "15 years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773224322/Gemini_Generated_Image_nb7gt4nb7gt4nb7g_dxndrq.png" },
+  { name: "Mr. Arshad Husain", role: "Assistant Teacher", department: "Computer", experience: "6", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773256255/Gemini_Generated_Image_ap57obap57obap57_yrnszr.png" },
+  { name: "Mrs. Geetanjali", role: "Assistant Teacher", department: "English", experience: "12 years", image: "" },
+  { name: "Mrs. Kiran Verma", role: "Assistant Teacher", department: "Hindi & Sanskrit", experience: "12 years", image: "" },
+  { name: "Mr. Vijay Kumar Tiwari", role: "Assistant Teacher", department: "Agriculture", experience: "12 years", image: "" },
+  { name: "Mr. Aditya Saxena", role: "Assistant Teacher", department: "Mathematics", experience: "12 years", image: "" },
+  { name: "Mr. Sachendra Singh Chauhan", role: "Assistant Teacher", department: "Chemistry", experience: "12 years", image: "" },
+  { name: "Mr. Anuj Tiwari", role: "Assistant Teacher", department: "Physics", experience: "12 years", image: "" },
+  { name: "Mr. Sanjiv Kumar Jaiswal", role: "Assistant Teacher", department: "Biology", experience: "12 years", image: "" },
+  { name: "Mr. Sarvagay Srivastav", role: "Assistant Teacher", department: "Political Science", experience: "12 years", image: "" },
+  { name: "Mr. Ravi Vishwakarma", role: "Assistant Teacher", department: "Mathematics", experience: "12 years", image: "" },
+  { name: "Mr. Ram Jivan", role: "Assistant Teacher", department: "Science", experience: "12 years", image: "" },
 ];
 
 
