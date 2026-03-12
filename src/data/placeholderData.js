@@ -107,7 +107,7 @@ export const quickLinks = [
 
 export const aboutHistory = {
   title: "Our Legacy",
-  text: "Founded in 1985 by visionary educator Pandit Suryadutt Anandi Saigal, our institution began with a humble intake of 50 students and a dream of making quality education accessible to all. Over the decades, PSAS Inter College has grown into one of the most respected educational institutions in the region, with over 2,000 students and a sprawling campus that blends tradition with modernity. Our alumni have gone on to excel in diverse fields — from civil services and engineering to medicine and the arts — carrying forward the values instilled in them during their formative years here.",
+  text: "Founded in 1995 by visionary educator Pandit Suryadutt Anandi Saigal, our institution began with a humble intake of 50 students and a dream of making quality education accessible to all. Over the decades, PSAS Inter College has grown into one of the most respected educational institutions in the region, with over 2,000 students and a sprawling campus that blends tradition with modernity. Our alumni have gone on to excel in diverse fields — from civil services and engineering to medicine and the arts — carrying forward the values instilled in them during their formative years here.",
 };
 
 export const missionVision = {
