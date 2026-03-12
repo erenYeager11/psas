@@ -127,7 +127,7 @@ export const principalMessage = {
 export const faculty = [
   { name: "Mr. Vijay Kumar Awasthi", role: "Principal", department: "Administration", experience: "25+ years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773224660/Gemini_Generated_Image_5c07m65c07m65c07_mbpjye.png" },
   { name: "Mr. Vasu Dev Kumar Agnihotri", role: "Principal of PSAS Girls Inter College", department: "Science", experience: "20+ years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773080584/principal_of_girls_psas_fmhcoo.png" },
-  { name: "Mr. Mayank Bajpai", role: "Lecturer", department: "Physics M. Sc. B.ed", experience: "18 years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773224326/Gemini_Generated_Image_qv5sjoqv5sjoqv5s_ruoqxb.png" },
+  { name: "Mr. Mayank Bajpai", role: "Lecturer", department: "Physics M. Sc. B.ed", experience: "18 years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773337453/Gemini_Generated_Image_qv5sjoqv5sjoqv5s_ruoqxb.png" },
   { name: "Mr. Vivek Kumar", role: "Assistant Teacher", department: "BSC, B.ed", experience: "15 years", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773224322/Gemini_Generated_Image_nb7gt4nb7gt4nb7g_dxndrq.png" },
   { name: "Mr. Arshad Husain", role: "Assistant Teacher", department: "Computer", experience: "6", image: "https://res.cloudinary.com/dxeqhu87p/image/upload/v1773256255/Gemini_Generated_Image_ap57obap57obap57_yrnszr.png" },
   { name: "Mrs. Geetanjali", role: "Assistant Teacher", department: "English", experience: "12 years", image: "" },
@@ -201,9 +201,16 @@ export const events = [
   },
   {
     id: 2,
-    date: "2026-02-26",
+    date: "2026-01-26",
     title: "Republic Day Celebrations",
     description: "Flag hoisting ceremony, patriotic performances, and NCC march-past to commemorate Republic Day.",
+    category: "National",
+  },
+  {
+    id: 3,
+    date: "2026-08-15",
+    title: "Independence day",
+    description: "Flag hoisting ceremony, patriotic performances, and NCC march-past to commemorate Independence Day.",
     category: "National",
   },
 ];
