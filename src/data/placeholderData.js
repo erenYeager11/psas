@@ -8,7 +8,7 @@ export const schoolInfo = {
   tagline: "Nurturing Minds, Shaping Futures",
   established: 1995,
   address: "Makhupur, Khairabad, Sitapur, Uttar Pardesh 261131",
-  phone: "+91 9450379054, +91 6394616216",
+  phone: "+91 6394616216",
   email: "psasic15@gmail.com, psasgic@gmail.com",
   website: "www.psasintercollege.org.in",
   logo: 'https://res.cloudinary.com/dxeqhu87p/image/upload/v1773226697/Gemini_Generated_Image_otougwotougwotou_mygqd2.png',
